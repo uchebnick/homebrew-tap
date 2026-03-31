@@ -1,16 +1,16 @@
 class Unch < Formula
   desc "Local-first semantic code search over repository annotations"
   homepage "https://github.com/uchebnick/unch-searcher"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/uchebnick/unch-searcher/releases/download/v0.1.0/unch_Darwin_arm64.tar.gz"
-      sha256 "aecb0b46bde5ec80bd184c21c685e2f9c88fea0c2f924cfde1f3265230b406eb"
+      url "https://github.com/uchebnick/unch-searcher/releases/download/v0.1.1/unch_Darwin_arm64.tar.gz"
+      sha256 "4d1429221f1e3a29a6bb97464ad635c37fd4c6c7eddba8809949e2b01a844e65"
     else
-      url "https://github.com/uchebnick/unch-searcher/releases/download/v0.1.0/unch_Darwin_x86_64.tar.gz"
-      sha256 "541b01bc93ef93d0066149ebf6b3d63de0cb47a92444055cbdd2d00c7b8adc23"
+      url "https://github.com/uchebnick/unch-searcher/releases/download/v0.1.1/unch_Darwin_x86_64.tar.gz"
+      sha256 "8918ce7a29f1a2ac88d6369a2800bf143c86de9ec87a6c27fe7ef23253d89a26"
     end
   end
 
