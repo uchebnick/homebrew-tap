@@ -7,10 +7,10 @@ class Unch < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/uchebnick/unch/releases/download/v0.3.0/unch_Darwin_arm64.tar.gz"
-      sha256 "6cafd2c033732ba297bcd3dc523134c7f7796dd5f54d6411a2499136e207bc15"
+      sha256 "8437f07c627613ff6d33f2392bc8aefb108b467ae0e4f5f4680ce1d3d9f1101d"
     else
       url "https://github.com/uchebnick/unch/releases/download/v0.3.0/unch_Darwin_x86_64.tar.gz"
-      sha256 "4c90d59d39364163451c0ad01cb5f52c875a4c66b589298f2fd7372c5e747778"
+      sha256 "bc3ef6a44b611c77fbc0db8911a87749e299dbe60b43e27b7d79056cda2c0a5b"
     end
   end
 
